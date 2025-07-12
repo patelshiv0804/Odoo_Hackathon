@@ -13,3 +13,8 @@ email -vivekgokhale23@gmail.com
 Team member -4:jagrat pandya
 email :jagratpandya36@gmail.com
 
+for frontend : 
+ Tech stack : react.js 
+
+for backend : 
+  Tech stack : node.js + express.js + MongoDB 
