@@ -75,7 +75,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </header>
-
+            
             {/* Main Content */}
             <main className="main-content">
                 {/* User Profile Header */}
