@@ -20,6 +20,7 @@ import {
 import FeatureCard from '../components/FeatureCard';
 import ClothingCard from '../components/ClothingCard';
 import FloatingParticles from '../components/FloatingParticles';
+import logo from '../assets/logo.png';
 import '../styles/Homepage.css';    
 
 function App() {
@@ -131,7 +132,7 @@ function App() {
                     {/* Logo */}
                     <div className="nav-logo">
                         <div className="nav-logo-icon">
-                            <Recycle size={24} color="#FDAF39" />
+                            <img src={logo} alt="ReWear Logo" className="nav-logo-image" />
                         </div>
                         <span className="nav-logo-text">ReWear</span>
                     </div>

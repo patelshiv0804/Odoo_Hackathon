@@ -94,12 +94,15 @@ html {
 .nav-logo-icon {
     background-color: var(--white);
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.15rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.nav-logo-icon img{
+    width: 50px;
+}
 .nav-logo-text {
     font-size: 1.5rem;
     font-weight: 800;
