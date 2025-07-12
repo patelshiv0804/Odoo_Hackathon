@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, X, Camera, Info, Plus, Shirt, Search } from 'lucide-react';
 import '../styles/Add_items.css'
+import NavBar from '../components/Nav_bar.jsx';
 const AddNewItemPage = () => {
     const [images, setImages] = useState([]);
     const [dragActive, setDragActive] = useState(false);
@@ -101,50 +102,7 @@ const AddNewItemPage = () => {
 
     return (
         <div className="add-item-page">
-
-            {/* <header className="header">
-                <div className="header-content">
-                    <div className="header-left">
-                        <h1 className="logo">ReWear</h1>
-                    </div>
-                    <nav className="nav-desktop">
-                        <button
-                            onClick={() => setActiveTab('dashboard')}
-                            className={`nav-button ${activeTab === 'dashboard' ? 'nav-button-active' : ''}`}
-                        >
-                            <Home className="nav-icon" />
-                            <span>Dashboard</span>
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('browse')}
-                            className={`nav-button ${activeTab === 'browse' ? 'nav-button-active' : ''}`}
-                        >
-                            <Search className="nav-icon" />
-                            <span>Browse</span>
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('add')}
-                            className={`nav-button ${activeTab === 'add' ? 'nav-button-active' : ''}`}
-                        >
-                            <Upload className="nav-icon" />
-                            <span>Add Item</span>
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('logout')}
-                            className={`nav-button ${activeTab === 'logout' ? 'nav-button-active' : ''}`}
-                        >
-                            <LogOut className="nav-icon" />
-                            <span>Logout</span>
-                        </button>
-                    </nav>
-                    <div className="nav-mobile">
-                        <button className="mobile-menu-button">
-                            <User className="mobile-menu-icon" />
-                        </button>
-                    </div>
-                </div>
-            </header> */}
-
+            <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
             <main className="main-content">
                 <div className="container">
                     {/* Page Title */}
