@@ -73,6 +73,7 @@ html {
     background-color: rgba(253, 175, 57, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-medium);
+    padding: 12px;
 }
 
 .nav-container {
@@ -83,6 +84,7 @@ html {
     justify-content: space-between;
     align-items: center;
     height: 4rem;
+    gap: 200px;
 }
 
 .nav-logo {
@@ -100,9 +102,10 @@ html {
     justify-content: center;
 }
 
-.nav-logo-icon img{
+.nav-logo-icon img {
     width: 50px;
 }
+
 .nav-logo-text {
     font-size: 1.5rem;
     font-weight: 800;

@@ -142,7 +142,7 @@ function App() {
                         <a href="#home" className="nav-link">Home</a>
                         <a href="#browse" className="nav-link">Browse</a>
                         <a href="#how-it-works" className="nav-link">How It Works</a>
-                        <a href="#about" className="nav-link">About</a>
+                        {/* <a href="#about" className="nav-link">About</a> */}
                     </div>
 
                     {/* Desktop Auth Buttons */}
@@ -269,22 +269,6 @@ function App() {
                 </div>
             </section>
 
-            {/* Call to Action Banner */}
-            {/* <section className="cta-banner">
-        <div className="cta-container">
-          <h2 className="cta-title">
-            Ready to Give Your Clothes a New Life?
-          </h2>
-          <p className="cta-description">
-            Join thousands of fashion-forward individuals who are making a difference, one swap at a time.
-          </p>
-          <a href="#signup" className="cta-button">
-            <span>List an Item Now</span>
-            <Sparkles size={20} />
-          </a>
-        </div>
-      </section> */}
-
             {/* Footer */}
             <footer className="footer">
                 <div className="footer-container">
@@ -339,7 +323,7 @@ function App() {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>© 2024 ReWear. Made with ❤️ by the ReWear Hackathon Team</p>
+                        <p>© 2025 ReWear. Made with ❤️ by the ReWear Hackathon Team</p>
                     </div>
                 </div>
             </footer>

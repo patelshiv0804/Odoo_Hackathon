@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FeatureCard = ({ icon: Icon, title, description, index }) => {
     return (
         <div
