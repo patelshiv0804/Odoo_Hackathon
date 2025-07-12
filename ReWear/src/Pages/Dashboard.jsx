@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 // import './Dashboard.css';
 import '../styles/Dashboard.css';
+import NavBar from '../components/Nav_bar';
 
 const Dashboard = () => {
     const [activeTab, setActiveTab] = useState('dashboard');
@@ -42,7 +43,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard-container">
             {/* Header */}
-            <header className="header">
+            {/* <header className="header">
                 <div className="header-content">
                     <div className="header-left">
                         <h1 className="logo">ReWear</h1>
@@ -74,8 +75,9 @@ const Dashboard = () => {
                         </button>
                     </div>
                 </div>
-            </header>
-            
+            </header> */}
+            <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
+
             {/* Main Content */}
             <main className="main-content">
                 {/* User Profile Header */}

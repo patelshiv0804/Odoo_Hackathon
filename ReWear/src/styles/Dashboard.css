@@ -47,6 +47,7 @@ body {
 .header-left {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .logo {
@@ -83,6 +84,15 @@ body {
 .nav-button-active {
     background-color: #fca311;
     color: #2c3e50;
+}
+
+.nav-logo-icon {
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-icon {
