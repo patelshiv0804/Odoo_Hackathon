@@ -345,7 +345,7 @@ body {
 .listing-content {
     padding: 1rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 0.5rem;
 }
 
@@ -667,7 +667,7 @@ body {
         display: none;
     }
 
-    
+
 
     .main-content {
         padding: 2rem;
@@ -675,7 +675,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-    
+
 
     .listings-grid {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
